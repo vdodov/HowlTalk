@@ -8,6 +8,8 @@ target 'HowlTalk' do
   # Pods for HowlTalk
 
   pod 'SnapKit', '~> 5.0.0'
-  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/RemoteConfig'
+
 
 end

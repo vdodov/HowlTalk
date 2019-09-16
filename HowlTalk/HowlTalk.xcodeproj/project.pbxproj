@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1427E915171EF57AA88AB781 /* Pods_HowlTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28502CB34FAA97AE04060D3F /* Pods_HowlTalk.framework */; };
+		E612EAE4232FF7BB0054D9AA /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = E612EAE3232FF7BB0054D9AA /* RemoteConfigDefaults.plist */; };
 		E6BA2FA1230835B300292A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA2FA0230835B300292A2D /* AppDelegate.swift */; };
 		E6BA2FA3230835B300292A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA2FA2230835B300292A2D /* ViewController.swift */; };
 		E6BA2FA6230835B300292A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BA2FA4230835B300292A2D /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		28502CB34FAA97AE04060D3F /* Pods_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D4227B0A47537750544A8A /* Pods-HowlTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.debug.xcconfig"; path = "Target Support Files/Pods-HowlTalk/Pods-HowlTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		E5D7B6F88D4C151D7B732CB1 /* Pods-HowlTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.release.xcconfig"; path = "Target Support Files/Pods-HowlTalk/Pods-HowlTalk.release.xcconfig"; sourceTree = "<group>"; };
+		E612EAE3232FF7BB0054D9AA /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		E6BA2F9D230835B300292A2D /* HowlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BA2FA0230835B300292A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6BA2FA2230835B300292A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				E6BA2FA7230835B400292A2D /* Assets.xcassets */,
 				E6BA2FA9230835B400292A2D /* LaunchScreen.storyboard */,
 				E6BA2FAC230835B400292A2D /* Info.plist */,
+				E612EAE3232FF7BB0054D9AA /* RemoteConfigDefaults.plist */,
 			);
 			path = HowlTalk;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6BA2FAB230835B400292A2D /* LaunchScreen.storyboard in Resources */,
+				E612EAE4232FF7BB0054D9AA /* RemoteConfigDefaults.plist in Resources */,
 				E6BA2FB3230836F900292A2D /* GoogleService-Info.plist in Resources */,
 				E6BA2FA8230835B400292A2D /* Assets.xcassets in Resources */,
 				E6BA2FA6230835B300292A2D /* Main.storyboard in Resources */,
